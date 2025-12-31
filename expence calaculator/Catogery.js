@@ -1,17 +1,14 @@
-let catogery = {
-  expence: {
-    food: { id: 1, name: "Food", userId: 1 },
-    travel: { id: 2, name: "Travel", userId: 3 },
-    shopping: { id: 3, name: "Shopping", userId: 2 },
-    utilities: { id: 4, name: "Utilities", userId: 2 },
-    entertainment: { id: 5, name: "Entertainment", userId: 3 },
-  },
-  income: {
-    salary: { id: 1, name: "Salary", userId: 2 },
-    freelance: { id: 2, name: "Freelance", userId: 2 },
-    investments: { id: 3, name: "Investments", userId: 3 },
-    gifts: { id: 4, name: "Gifts", userId: 1 },
-    gifts: { id: 4, name: "Gifts", userId: 2 },
-    other: { id: 5, name: "Other", userId: 1 },
-  },
-};
+let catogery = [
+  { id: 1, type: "expense", name: "Food", userId: 1 },
+  { id: 2, type: "expense", name: "Travel", userId: 3 },
+  { id: 3, type: "expense", name: "Shopping", userId: 2 },
+  { id: 4, type: "expense", name: "Utilities", userId: 2 },
+  { id: 5, type: "expense", name: "Entertainment", userId: 3 },
+
+  { id: 1, type: "income", name: "Salary", userId: 2 },
+  { id: 2, type: "income", name: "Freelance", userId: 2 },
+  { id: 3, type: "income", name: "Investments", userId: 3 },
+  { id: 4, type: "income", name: "Gifts", userId: 1 },
+  { id: 5, type: "income", name: "Gifts", userId: 2 },
+  { id: 6, type: "income", name: "Other", userId: 1 },
+];

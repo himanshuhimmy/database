@@ -1,7 +1,5 @@
 let users = [
-  {
-    himanshu: { id: 1, access: { username: "himmy", password: "himmy" } },
-    pratik: { id: 2, access: { username: "pratik", password: "pratik" } },
-    ramesh: { id: 3, access: { username: "ramesh", password: "ramesh" } },
-  },
+  { id: 1, name: `himanshu`, access: { username: "himmy", password: "himmy" } },
+  { id: 2, name: `pratik`, access: { username: "pratik", password: "pratik" } },
+  { id: 3, name: `ramesh`, access: { username: "ramesh", password: "ramesh" } },
 ];
