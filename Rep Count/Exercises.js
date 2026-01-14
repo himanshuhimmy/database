@@ -1,0 +1,50 @@
+let Exercises = [
+  { id: 1, name: `Deadlift`, muscleId: 1, custom: true },
+  { id: 2, name: `Mid-Rows`, muscleId: 1, custom: true },
+  { id: 3, name: `Pull-Ups`, muscleId: 1, custom: false },
+  { id: 4, name: `Lat Pulldowns`, muscleId: 1, custom: false },
+  { id: 5, name: `Pendlay-Rows`, muscleId: 1, custom: true },
+  { id: 6, name: `Shrugs`, muscleId: 1, custom: false },
+  { id: 7, name: `Pull-over`, muscleId: 1, custom: false },
+  { id: 8, name: `Rack-pulls`, muscleId: 1, custom: true },
+
+  { id: 9, name: `Bench-press`, muscleId: 2, custom: false },
+  { id: 10, name: `Inclined-press`, muscleId: 2, custom: false },
+  { id: 11, name: `Declined-press`, muscleId: 2, custom: false },
+  { id: 12, name: `Peck-deck`, muscleId: 2, custom: false },
+  { id: 13, name: `Scoops`, muscleId: 2, custom: true },
+  { id: 14, name: `Dips`, muscleId: 2, custom: true },
+
+  { id: 15, name: `Dumbbell-Curles`, muscleId: 3, custom: false },
+  { id: 16, name: `Spider-curls`, muscleId: 3, custom: true },
+  { id: 17, name: `Concentrated-Curls`, muscleId: 3, custom: true },
+  { id: 18, name: `Barbell-Curls`, muscleId: 3, custom: true },
+
+  { id: 19, name: `Triceps-Pushdown`, muscleId: 4, custom: false },
+  { id: 20, name: `Overhead-Triceps-Extension`, muscleId: 4, custom: false },
+  { id: 21, name: `Skullcrushers`, muscleId: 4, custom: true },
+
+  { id: 22, name: `Military-Press`, muscleId: 5, custom: false },
+  { id: 23, name: `Lateral-Raises`, muscleId: 5, custom: false },
+  { id: 24, name: `Front-Raises`, muscleId: 5, custom: true },
+  { id: 25, name: `Rear-Delt-Flies`, muscleId: 5, custom: true },
+  { id: 26, name: `Upright-rows`, muscleId: 5, custom: true },
+
+  { id: 27, name: `Squats`, muscleId: 6, custom: false },
+  { id: 28, name: `Lunges`, muscleId: 6, custom: true },
+  { id: 29, name: `Leg-press`, muscleId: 6, custom: false },
+  { id: 30, name: `Leg-curls`, muscleId: 6, custom: false },
+  { id: 31, name: `Leg-extensions`, muscleId: 6, custom: false },
+  { id: 32, name: `Calf-raises`, muscleId: 6, custom: false },
+  { id: 33, name: `Hips-thursts`, muscleId: 6, custom: true },
+
+  { id: 34, name: `Crunches`, muscleId: 7, custom: true },
+  { id: 35, name: `Leg-raises`, muscleId: 7, custom: true },
+  { id: 36, name: `Planks`, muscleId: 7, custom: true },
+
+  { id: 37, name: `Tredmill`, muscleId: 8, custom: false },
+  { id: 38, name: `Cycling`, muscleId: 8, custom: false },
+  { id: 39, name: `Jump-Rope`, muscleId: 8, custom: true },
+  { id: 40, name: `Stair-Climber`, muscleId: 8, custom: true },
+  { id: 41, name: `Cross-trainer`, muscleId: 8, custom: false },
+];
